@@ -48,8 +48,8 @@ function simulate()
     var h_sum = 0; //seconds
         
     //initializers, define start angular velocity
-    y0 = 0; //initial position
-    y1 = 0.0001; //position after h seconds
+    y0 = 0; //initial angle
+    y1 = 0.0001; //angle after h seconds
 
     function loop()
     {

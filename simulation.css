@@ -25,8 +25,8 @@ body
     height: 250px;
     position: absolute;
     transform-origin: bottom;
-    bottom: 30px;
-    left: 30px;
+    bottom: 10px;
+    left: 10px;
 }
 
 .mass
