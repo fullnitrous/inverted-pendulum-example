@@ -1,0 +1,39 @@
+body
+{
+    height: 100vh;
+    display: grid;
+    font-family: sans-serif;
+}
+
+.container
+{
+    margin: auto;
+    border: 1px solid grey;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+@media screen and (max-width: 950px) { .container { height: 100%; width: 100%; } }
+
+.telemetry { margin: 10px; }
+
+.pendulum
+{
+    background: red;
+    width: 5px;
+    height: 250px;
+    position: absolute;
+    transform-origin: bottom;
+    bottom: 30px;
+    left: 30px;
+}
+
+.mass
+{
+    background: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: -7.5px;
+}
